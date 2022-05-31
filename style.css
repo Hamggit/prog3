@@ -1,0 +1,40 @@
+*{
+    background-color:rgb(207, 181, 181)
+}
+.btns{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.btn{
+    height: 70px;
+    width: 160px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 19px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#btn1{
+    background-color: darkgreen;
+}
+#btn2{
+    background-color: yellow;
+}
+#btn3{
+    background-color: rgb(253, 66, 66);
+}
+#btn4{
+    background-color: black;
+    color: white;
+}
+#btn5{
+    background-color: blue;
+}
+body{
+
+    padding-top: 150px;
+    padding-right: 100px;
+}

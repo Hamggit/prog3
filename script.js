@@ -9,7 +9,7 @@ function createMatrix(matlen) {
             matrix[i][j] = 0
         }
     }
-}
+} 
 
 function fills(gr) {
     for (let i = 0; i < gr; i++) {
@@ -163,6 +163,7 @@ function draw() {
 
     for (let i in grassArr) {
         grassArr[i].mul()
+        
     }
     for (let i in GrassEaterArr) {
         GrassEaterArr[i].eat()
